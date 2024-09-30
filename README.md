@@ -17,16 +17,22 @@ Voici comment utiliser Nyx Logger dans votre projet :
 
 ```js
 // Importer le module
-const logger = require('nyx-logger');
+const log = require('nyx-logger');
 
 // Enregistrer un message d'information
-logger.info('Ceci est un message d\'information.');
+log("info", 'Ceci est un message d\'information.');
+
+// Enregistrer un message sucess
+log("done", 'Ceci est un message sucess.');
 
 // Enregistrer un message d'avertissement
-logger.warn('Ceci est un message d\'avertissement.');
+log("warn", 'Ceci est un message d\'avertissement.');
 
 // Enregistrer un message d'erreur
-logger.error('Ceci est un message d\'erreur.');
+log("err", 'Ceci est un message d\'erreur.');
+
+// Enregistrer un message developer
+log("dev", 'Ceci est un message developer.');
 ```
 # Contributions
 Les contributions sont les bienvenues ! Si tu souhaites améliorer le module, n'hésite pas à soumettre une pull request.
