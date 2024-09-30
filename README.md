@@ -1,41 +1,41 @@
 # nyx-logger
 
-Nyx Logger est un simple logger pour Node.js, conçu pour faciliter l’enregistrement des messages dans la console avec des niveaux de gravité tels que l’information, l’avertissement et l’erreur. Ce module utilise des couleurs pour rendre les messages de log plus lisibles et comprend des horodatages pour un suivi facile des événements.
+Nyx Logger is a simple logger for Node.js, designed to facilitate the logging of console messages with severity levels such as information, warning and error. This module uses colors to make log messages more legible and includes timestamps for easy tracking of events.
 
-# Fonctionnalités
-- Niveaux de log : Enregistre les messages avec différents niveaux de gravité (info, warning, error).
-- Couleurs : Utilise des couleurs pour distinguer les niveaux de log dans la console.
-- Horodatage : Chaque message de log est précédé d'un horodatage pour faciliter le suivi.
+# Features
+- Log levels: Log messages with different levels of severity (info, warning, error).
+- Colors: Use colors to distinguish log levels in the console.
+- Timestamp: Each log message is preceded by a timestamp for easy tracking.
 
 # Installation
-Pour installer Nyx Logger, utilise npm (Node Package Manager). Exécute la commande suivante dans ton terminal :
+To install Nyx Logger, use npm (Node Package Manager). Run the following command in your terminal:
 
-Copier le code
+Copy the code
 npm install nyx-logger
-Utilisation
-Voici comment utiliser Nyx Logger dans votre projet :
+How to use
+Here's how to use Nyx Logger in your project:
 
 ```js
-// Importer le module
+// Import the module
 const log = require('nyx-logger');
 
-// Enregistrer un message d'information
-log("info", 'Ceci est un message d\'information.');
+// Log an information message
+log(“info”, 'This is an information message.');
 
-// Enregistrer un message sucess
-log("done", 'Ceci est un message sucess.');
+// Log a sucess message
+log(“done”, 'This is a sucess message.');
 
-// Enregistrer un message d'avertissement
-log("warn", 'Ceci est un message d\'avertissement.');
+// Log a warning message
+log(“warn”, 'This is a warning message.');
 
-// Enregistrer un message d'erreur
-log("err", 'Ceci est un message d\'erreur.');
+// Log an error message
+log(“err”, 'This is an error message.');
 
-// Enregistrer un message developer
-log("dev", 'Ceci est un message developer.');
+// Log a developer message
+log(“dev”, 'This is a developer message.');
 ```
 # Contributions
-Les contributions sont les bienvenues ! Si tu souhaites améliorer le module, n'hésite pas à soumettre une pull request.
+Contributions are welcome! If you'd like to improve the module, don't hesitate to submit a pull request.
 
 License
-Ce projet est sous la licence MIT. Consulte le fichier LICENSE pour plus d'informations.
+This project is licensed under the MIT license. See the LICENSE file for more information.
