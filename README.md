@@ -1,6 +1,8 @@
 # nyx-logger
 
-Nyx Logger is a simple logger for Node.js, designed to facilitate the logging of console messages with severity levels such as information, warning and error. This module uses colors to make log messages more legible and includes timestamps for easy tracking of events.
+- Nyx Logger is a simple logger for Node.js, designed to facilitate the logging of console messages with severity levels such as information, warning and error. This module uses colors to make log messages more legible and includes timestamps for easy tracking of events.
+
+- https://www.npmjs.com/package/nyx-logger
 
 # Features
 - Log levels: Log messages with different levels of severity (info, warning, error).
