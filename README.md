@@ -19,6 +19,9 @@ Here's how to use Nyx Logger in your project:
 // Import the module
 const log = require('nyx-logger');
 
+//Set file emplacement
+logfile.set_log_file("../your/path/log.txt");
+
 // Log an information message
 log(“info”, 'This is an information message.');
 
