@@ -32,7 +32,7 @@ const log = (style, string) => {
 
     fs.appendFile(logFilePath, logMessage, (err) => {
         if (err) {
-            console.error('Échec de l\'écriture dans le log:', err);
+            console.error('failed to write log:', err);
         }
     });
 };
