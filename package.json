@@ -1,0 +1,16 @@
+{
+  "name": "nyx-logger",
+  "version": "1.0.0",
+  "description": "A JavaScript logger is an essential tool for developers to record messages, errors and status information within their applications. Whether for web development, the backend with Node.js, or mobile application development, a logger helps monitor and diagnose application behavior by providing clear, structured records.",
+  "main": "index.js",
+  "keywords": ["log", "logging", "console"],
+  "author": "Zenith",
+  "license": "MIT",
+
+  "dependencies": {
+    "colors": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "moment": "^2.30.1",
+    "path": "^0.12.7"
+  }
+}
