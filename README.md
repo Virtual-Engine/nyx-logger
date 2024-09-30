@@ -19,7 +19,7 @@ javascript
 Copier le code
 // Importer le module
 const logger = require('nyx-logger');
-
+```js
 // Enregistrer un message d'information
 logger.info('Ceci est un message d\'information.');
 
@@ -28,6 +28,7 @@ logger.warn('Ceci est un message d\'avertissement.');
 
 // Enregistrer un message d'erreur
 logger.error('Ceci est un message d\'erreur.');
+```
 Contributions
 Les contributions sont les bienvenues ! Si tu souhaites améliorer le module, n'hésite pas à soumettre une pull request.
 
