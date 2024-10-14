@@ -7,7 +7,7 @@ async function checkForUpdates() {
     const latestVersion = response.data['dist-tags'].latest;
 
     if (latestVersion !== currentVersion) {
-        console.log(`[nyx-logger] Update available ${currentVersion} → ${latestVersion}`);
+        console.log(`[nyx-logger] Update available ${currentVersion} → ${latestVersion} : npm i nyx-logger@latest`);
     }
 }
 
