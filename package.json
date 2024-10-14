@@ -1,6 +1,6 @@
 {
   "name": "nyx-logger",
-  "version": "1.0.2",
+  "version": "3.0.0",
   "description": "nyx-logger is a simple logger for Node.js, designed to facilitate the logging of console messages with severity levels such as information, warning and error. This module uses colors to make log messages more legible and includes timestamps for easy tracking of events.",
   "main": "index.js",
   "keywords": [
@@ -10,8 +10,19 @@
     "console"
   ],
   "author": "Zenith",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenith-engine/nyx-logger.git"
+  },
+  "homepage": "https://github.com/zenith-engine/",
+  "files": [
+    "index.js",
+    "checker.js",
+    "readme.md"
+  ],
   "license": "MIT",
   "dependencies": {
+    "axios": "^1.7.7",
     "colors": "^1.4.0",
     "fs": "^0.0.1-security",
     "moment": "^2.30.1",
