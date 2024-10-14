@@ -1,6 +1,6 @@
 {
   "name": "nyx-logger",
-  "version": "3.0.0",
+  "version": "3.0.2",
   "description": "nyx-logger is a simple logger for Node.js, designed to facilitate the logging of console messages with severity levels such as information, warning and error. This module uses colors to make log messages more legible and includes timestamps for easy tracking of events.",
   "main": "index.js",
   "keywords": [
