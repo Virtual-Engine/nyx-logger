@@ -36,6 +36,16 @@ log(“err”, 'This is an error message.');
 
 // Log a developer message
 log(“dev”, 'This is a developer message.');
+
+//Ascii Text
+log("asci", `                             
+    /|    / / \\    / / \\ / / 
+   //|   / /   \\  / /   \  /  
+  // |  / /     \\/ /    / /   
+ //  | / /       / /    / /\\  
+//   |/ /       / /    / /  \\ 
+
+`, "cyan"); //Color is only for ascii text
 ```
 
 # Custom Log:
