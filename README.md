@@ -17,28 +17,28 @@ Here's how to use Nyx Logger in your project:
 
 ```js
 // Import the module
-const { log, logfile } = require('nyx-logger');
+const log = require('nyx-logger');
 
 //Set file path
-logfile.set_log_file("../your/path/log.txt");
+log.set_file("../your/path/log.txt");
 
 // Log an information message
-log(“info”, 'This is an information message.');
+log.print("info", 'This is an information message.');
 
 // Log a sucess message
-log(“done”, 'This is a sucess message.');
+log.print("done", 'This is a sucess message.');
 
 // Log a warning message
-log(“warn”, 'This is a warning message.');
+log.print("warn", 'This is a warning message.');
 
 // Log an error message
-log(“err”, 'This is an error message.');
+log.print("err", 'This is an error message.');
 
 // Log a developer message
-log(“dev”, 'This is a developer message.');
+log.print("dev", 'This is a developer message.');
 
 //Ascii Text
-log("asci", `                             
+log.print("asci", `                             
     /|    / / \\    / / \\ / / 
    //|   / /   \\  / /   \  /  
   // |  / /     \\/ /    / /   
@@ -90,13 +90,13 @@ Each log is not only printed to the console but also saved to a text file for lo
 # Examples
 
 ```js
-customLog('INFO', 'System startup...', 'green', true, true, true, true);
+log.custom('INFO', 'System startup...', 'green', true, true, true, true);
 ```
 
 or 
 
 ```js
-customLog({
+log.custom({
     tag: 'INFO',
     message: 'System startup...',
     tagColor: 'green',
