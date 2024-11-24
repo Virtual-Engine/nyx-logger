@@ -1,0 +1,10 @@
+[21:38:30:661 2024-11-24] [INFO] Teste
+[21:39:37:479 2024-11-24] [INFO] Teste
+[21:39:37:480 2024-11-24] [INFO] System startup...
+[21:39:48:538 2024-11-24] [INFO] Teste
+[21:39:48:539 2024-11-24] [INFO] System startup...
+[21:48:47:910 2024-11-24] [INFO] [nyx-logger] Update available 3.0.4 → 3.0.0 : npm i nyx-logger@latest
+[21:49:10:814 2024-11-24] [INFO] [nyx-logger] Update available 3.0.4 → 3.0.0 : npm i nyx-logger@latest
+[21:50:33:609 2024-11-24] [INFO] [nyx-logger] Update available 3.0.4 → 3.0.0 : npm i nyx-logger@latest
+[21:50:41:371 2024-11-24] [INFO] [nyx-logger] Update available 3.0.4 → 3.0.0 : npm i nyx-logger@latest
+[21:53:50:251 2024-11-24] [INFO] [nyx-logger] You are using the latest version (3.0.4).
