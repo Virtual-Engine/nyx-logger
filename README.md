@@ -107,6 +107,23 @@ log.custom({
 });
 ```
 
+# Progress Bar
+
+```js
+const simulateProgress = () => {
+    let progress = 0;
+    const interval = setInterval(() => {
+        if (progress <= 100) {
+            log.progressBar('#', '>', progress);
+            progress += 2;
+        } else {
+            clearInterval(interval);
+            log.print('done', 'Task completed successfully!', 'green');
+        }
+    }, 100);
+};
+```
+
 # Contributions
 Contributions are welcome! If you'd like to improve the module, don't hesitate to submit a pull request.
 
